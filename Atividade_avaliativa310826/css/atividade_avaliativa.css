@@ -1,0 +1,80 @@
+.container {
+    width: 900px;
+    height: 600px;
+    background-color: #c8c8c8;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    width: 900px;
+    height: 40px;
+    background-color: cornflowerblue;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-left-radius: 10px;  
+    border-top-right-radius: 10px;   
+}
+
+.linha-topo {
+    margin-top: 10px;
+}
+
+.img1 { 
+    width: 200px;
+    height: 130px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.linha-meio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 75px; /* Controla a distância exata entre a img2, o texto e a img3 */
+    width: 100%;
+}
+
+.img2 {
+    width: 200px;
+    height: 130px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.texto {
+    width: 250px;
+    height: 150px;
+    font-size: 13px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+}
+
+.img3 { 
+    width: 200px;
+    height: 130px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.linha-baixo {
+    margin-bottom: 5px;
+}
+
+.img4 {
+    width: 700px;
+    height: 90px;
+    border-radius: 20px;
+    object-fit: cover;
+}
